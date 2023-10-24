@@ -2,13 +2,14 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyAesPAXeZWicmrQzkfmDSDOJh9eIOQ-JzM",
-  authDomain: "donkey-tutorial.firebaseapp.com",
-  projectId: "donkey-tutorial",
-  storageBucket: "donkey-tutorial.appspot.com",
-  messagingSenderId: "147847953873",
-  appId: "1:147847953873:web:34ff171d63022f110ab4f0"
-};
+    apiKey: "AIzaSyC2MXTIFE0RBPfQH9hts_ugnXzP4aNMqLY",
+    authDomain: "elton-de-oliveira.firebaseapp.com",
+    projectId: "elton-de-oliveira",
+    storageBucket: "elton-de-oliveira.appspot.com",
+    messagingSenderId: "807464646619",
+    appId: "1:807464646619:web:3af18a6a9019aedd2699fe",
+    measurementId: "G-G9PE3XGGBG"
+  };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
